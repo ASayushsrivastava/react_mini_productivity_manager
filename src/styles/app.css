@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin-top: 100px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+/* Wrapper for Components */
+div.wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin: 10px;
+}
+
+/* Header Styling */
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Button Styling */
+button {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+button:disabled {
+  background-color: #ccc; /* Disabled button style */
+  cursor: not-allowed;
+}
+
+/* Input Fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* List and Task Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Focus Timer */
+p {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p span {
+  font-size: 40px;
+  color: #333;
+}
+
+/* AutoLoad Status */
+div[style*="cursor: pointer"] {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #444;
+  cursor: pointer;
+}
+
+div[style*="cursor: pointer"]:hover {
+  color: #4caf50;
+}
